@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🌾 Crop Recommendation</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mandi.html">Mandi Prices</a>
+            <a href="weather.html">Weather Support</a>
+            <a href="tips.html">Quick Tips</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Find the best crop for your farm</h2>
+        <form>
+            <label for="soil">Soil Type:</label>
+            <select id="soil">
+                <option value="loamy">Loamy</option>
+                <option value="sandy">Sandy</option>
+                <option value="clay">Clay</option>
+            </select>
+            <label for="season">Season:</label>
+            <select id="season">
+                <option value="summer">Summer</option>
+                <option value="monsoon">Monsoon</option>
+                <option value="winter">Winter</option>
+            </select>
+            <button type="submit">Get Recommendation</button>
+        </form>
+        <div id="recommendation">
+            <!-- Crop recommendation result will appear here -->
+        </div>
+    </main>
+</body>
+</html>
