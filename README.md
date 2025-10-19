@@ -25,7 +25,11 @@ This project is intended for **farmers, agricultural enthusiasts, and small-scal
 - Helps increase **profitability, efficiency, and sustainability** in farming.  
 - Can be further extended with **IoT integration, AI pest detection, or mobile apps** in the future.
 
----
-
-## 
+## Project Structure 
+smart-farming-prototype/
+├── index.html            # Home page / Dashboard
+├── crop.html             # Crop Recommendation page
+├── mandi.html            # Mandi Prices page
+├── weather.html          # Weather Support page
+├── tips.html             # Quick Tips page
 
